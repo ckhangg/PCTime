@@ -4,7 +4,7 @@
 
 ## Tải và sử dụng
 
-1. Vào **Releases** của repo, tải `PC-Time-v0.1.0-win-x64.zip`.
+1. Vào [Releases](https://github.com/ckhangg/PCTime/releases) của repo, tải `PC-Time-v0.1.0-win-x64.zip`.
 2. Giải nén toàn bộ vào thư mục cố định, mở `PcTime.exe`.
 3. Bản ZIP dành cho Windows 11 x64, có kèm .NET nên không cần cài runtime riêng.
 
@@ -65,3 +65,4 @@ Chakra Petch và Be Vietnam Pro theo SIL Open Font License. Bản quyền và gi
 ## Góp ý
 
 Mở Issue, mô tả thao tác tái hiện, kết quả mong đợi, kết quả thực tế và phiên bản Windows/app.
+
