@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+.vs/
+Desktop/
+Neon/
+Grouped/
+artifacts/
+*.user
+*.suo
