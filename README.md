@@ -4,6 +4,20 @@
 
 ## Tải và sử dụng
 
+### Bộ cài và WinGet
+
+Bộ cài `PC-Time-Setup-0.1.0-win-x64.exe` có trong Releases: cài cho người dùng hiện tại, tạo shortcut Start Menu và hỗ trợ gỡ trong Installed Apps. Không cần quyền Administrator hoặc cài .NET riêng. Lịch sử giữ ngoài thư mục cài đặt.
+
+Gói WinGet đã được gửi tại [PR #469749](https://github.com/microsoft/winget-pkgs/pull/469749), đang chờ kiểm tra/duyệt. Chỉ sau khi được merge và đồng bộ vào nguồn WinGet mới dùng được:
+
+```cmd
+winget install --id ckhangg.PCTime -e
+```
+
+Manifest nằm ở `packaging/winget/ckhangg.PCTime/0.1.0/`. `winget validate` đã đạt; đã thử cài/gỡ im lặng và kiểm tra phiên bản trong Installed Apps. Bộ cài chưa ký số.
+
+### Bản ZIP portable
+
 1. Vào [Releases](https://github.com/ckhangg/PCTime/releases) của repo, tải `PC-Time-v0.1.0-win-x64.zip`.
 2. Giải nén toàn bộ vào thư mục cố định, mở `PcTime.exe`.
 3. Bản ZIP dành cho Windows 11 x64, có kèm .NET nên không cần cài runtime riêng.
